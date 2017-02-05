@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<title><?php echo "Sistem Medical Record" ?></title>
+<title><?php echo "SMA An-Nurmaniyah" ?></title>
 
 <?php
 
 //FAVICON
-echo $this->Html->meta('icon',$this->webroot."img/favicon.png",array("type"=>"png"));
+// echo $this->Html->meta('icon',$this->webroot."img/favicon.png",array("type"=>"png"));
 
 //************ CSS NEEDED ****************//
 echo $this->Html->css("main");
@@ -86,7 +86,7 @@ echo $this->fetch('script');
 	<div id="leftSide">
 		<div class="logo" style="text-align:center;">
 			<a href="javascript:void(0)">
-				<img src="<?php echo $this->webroot ?>img/logo.png" alt="" width="150"/>
+				<!-- <img src="<?php echo $this->webroot ?>img/logo.png" alt="" width="150"/> -->
 			</a>
 		</div>
 		<div class="sidebarSep mt0"></div>

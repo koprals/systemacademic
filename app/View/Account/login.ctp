@@ -18,7 +18,7 @@
 
 <div class="loginWrapper" >
 	<div class="loginLogo" style="margin-left:-90px; margin-top:-80px;">
-		<img src="<?php echo $this->webroot?>img/logo.png" alt="" width="150"/>
+		<!-- <img src="<?php echo $this->webroot?>img/logo.png" alt="" width="150"/> -->
 	</div>
     <div class="widget" style="height:auto;">
         <div class="title">

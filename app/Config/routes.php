@@ -1,5 +1,5 @@
 <?php
-Router::connect('/', array('controller' => 'Web', 'action' => 'Login'));
+Router::connect('/', array('controller' => 'Home', 'action' => 'Index'));
 Router::connect('/MeetingScape', array('controller' => 'MeetingEvents', 'action' => 'Index','2'));
 Router::connect('/GroupPackages', array('controller' => 'MeetingEvents', 'action' => 'Index','3'));
 Router::connect('/Weddings', array('controller' => 'MeetingEvents', 'action' => 'Index','4'));
